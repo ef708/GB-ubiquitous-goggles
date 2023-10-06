@@ -1,11 +1,11 @@
 package GB.Architecture.pt3.ISP;
 
-public class Triangle implements IShape {
+public class Triangle implements IShape2D {
     int a;
     int b;
     int c;
 
-    public int area() {
+    public double area() {
         return 0;
     }
 }

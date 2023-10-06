@@ -8,7 +8,7 @@ public class Car {
         this.maxSpeed = maxSpeed;
         this.model = model;
 
-        IEngine engine = new Gas();
+        IEngine engine = new Petrol();
         engine.start();
     }
 

@@ -1,9 +1,9 @@
 package GB.Architecture.pt3.ISP;
 
-public class Round implements IShape {
+public class Circle implements IShape2D {
     int radius;
 
-    public int area() {
+    public double area() {
         return 0;
     }
 }
